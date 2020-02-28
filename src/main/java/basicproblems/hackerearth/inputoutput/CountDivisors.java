@@ -10,7 +10,7 @@ Problem Description:
         Output Format
         Print the required answer on a single line.*/
 
-package basicproblems.inputoutput;
+package basicproblems.hackerearth.inputoutput;
 
 import java.io.BufferedReader;
 import java.io.IOException;

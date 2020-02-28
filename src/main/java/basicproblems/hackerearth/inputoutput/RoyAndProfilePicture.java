@@ -49,7 +49,7 @@ Problem Description:
         UPLOAD ANOTHER
         ACCEPTED
 */
-package basicproblems.inputoutput;
+package basicproblems.hackerearth.inputoutput;
 
 import java.io.BufferedReader;
 import java.io.IOException;

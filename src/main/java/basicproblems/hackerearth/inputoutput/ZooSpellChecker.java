@@ -26,7 +26,7 @@
  * Link: https://www.hackerearth.com/practice/basic-programming/input-output/basics-of-input-output/practice-problems/algorithm/is-zoo-f6f309e7/
  */
 
-package basicproblems.inputoutput;
+package basicproblems.hackerearth.inputoutput;
 
 import java.util.Scanner;
 import java.util.regex.Matcher;

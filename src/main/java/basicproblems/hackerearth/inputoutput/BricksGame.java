@@ -1,4 +1,4 @@
-package basicproblems.inputoutput;
+package basicproblems.hackerearth.inputoutput;
 
 import java.util.Scanner;
 

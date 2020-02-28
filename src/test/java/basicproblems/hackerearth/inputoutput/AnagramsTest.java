@@ -1,4 +1,4 @@
-package basicproblems.inputoutput;
+package basicproblems.hackerearth.inputoutput;
 
 import org.junit.Assert;
 import org.junit.Before;

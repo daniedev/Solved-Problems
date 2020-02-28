@@ -45,7 +45,7 @@
 Problem URL: https://www.hackerearth.com/practice/basic-programming/implementation/basics-of-implementation/practice-problems/algorithm/hawkeye-and-floodfill/
              ?utm_source=header&utm_medium=search&utm_campaign=he-search*/
 
-package basicproblems.implementation;
+package basicproblems.hackerearth.implementation;
 
 import java.io.BufferedReader;
 import java.io.IOException;

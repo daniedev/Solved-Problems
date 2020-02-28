@@ -29,7 +29,7 @@
  * 45 AS
  */
 
-package basicproblems.inputoutput;
+package basicproblems.hackerearth.inputoutput;
 
 import javafx.util.Pair;
 

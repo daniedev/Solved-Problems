@@ -32,7 +32,7 @@ Problem Description :
         1
 */
 
-package basicproblems.inputoutput;
+package basicproblems.hackerearth.inputoutput;
 
 import java.io.BufferedReader;
 import java.io.IOException;

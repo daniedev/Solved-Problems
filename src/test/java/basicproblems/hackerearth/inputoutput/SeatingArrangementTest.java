@@ -1,4 +1,4 @@
-package basicproblems.inputoutput;
+package basicproblems.hackerearth.inputoutput;
 
 import javafx.util.Pair;
 import org.junit.Assert;

@@ -1,6 +1,5 @@
-package basicproblems.inputoutput;
+package basicproblems.hackerearth.inputoutput;
 
-import basicproblems.inputoutput.ZooSpellChecker;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;

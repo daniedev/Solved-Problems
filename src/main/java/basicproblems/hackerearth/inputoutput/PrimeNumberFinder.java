@@ -28,7 +28,7 @@
  * Lisp (SBCL), Lua, Objective-C, OCaml, Octave, Pascal, Perl, PHP, Python, Python 3, R(RScript), Racket, Ruby, Rust, Scala, Swift, Swift-4.1, TypeScript, Visual Basic
  */
 
-package basicproblems.inputoutput;
+package basicproblems.hackerearth.inputoutput;
 
 import java.util.Scanner;
 
