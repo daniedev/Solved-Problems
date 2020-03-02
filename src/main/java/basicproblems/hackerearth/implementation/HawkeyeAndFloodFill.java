@@ -1,3 +1,9 @@
+package basicproblems.hackerearth.implementation;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
 /**Problem Description:
 
         Hawkeye is a MARVEL character who has a perfect aim in archery. Its almost impossible for him to miss his aim.
@@ -44,12 +50,6 @@
 
 Problem URL: https://www.hackerearth.com/practice/basic-programming/implementation/basics-of-implementation/practice-problems/algorithm/hawkeye-and-floodfill/
              ?utm_source=header&utm_medium=search&utm_campaign=he-search*/
-
-package basicproblems.hackerearth.implementation;
-
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
 
 public class HawkeyeAndFloodFill {
     private static int rowStart;

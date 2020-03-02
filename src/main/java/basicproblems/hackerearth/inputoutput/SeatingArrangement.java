@@ -1,3 +1,8 @@
+package basicproblems.hackerearth.inputoutput;
+
+import javafx.util.Pair;
+import java.util.Scanner;
+
 /**
  * Akash and Vishal are quite fond of travelling. They mostly travel by railways. They were travelling in a train one day and they got interested in the seating arrangement of their compartment. The compartment looked something like
  * <p>
@@ -28,12 +33,6 @@
  * 19 WS
  * 45 AS
  */
-
-package basicproblems.hackerearth.inputoutput;
-
-import javafx.util.Pair;
-
-import java.util.Scanner;
 
 public class SeatingArrangement {
     private int remainder;

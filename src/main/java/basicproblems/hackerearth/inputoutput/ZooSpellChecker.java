@@ -1,3 +1,9 @@
+package basicproblems.hackerearth.inputoutput;
+
+import java.util.Scanner;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
 /**
  * Problem Description:
 
@@ -26,12 +32,6 @@
  * Link: https://www.hackerearth.com/practice/basic-programming/input-output/basics-of-input-output/practice-problems/algorithm/is-zoo-f6f309e7/
  */
 
-package basicproblems.hackerearth.inputoutput;
-
-import java.util.Scanner;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
-
 public class ZooSpellChecker {
 
     public boolean checkForPropotion(String word) {
@@ -57,6 +57,4 @@ public class ZooSpellChecker {
             result = "Yes";
         System.out.println(result);
     }
-
-
 }

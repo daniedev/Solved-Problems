@@ -1,12 +1,12 @@
-/**
- * Problem URL: https://www.hackerearth.com/practice/basic-programming/input-output/basics-of-input-output/practice-problems/algorithm/find-product/
- */
-
 package basicproblems.hackerearth.inputoutput;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+
+/**
+ * Problem URL: https://www.hackerearth.com/practice/basic-programming/input-output/basics-of-input-output/practice-problems/algorithm/find-product/
+ */
 
 public class FindProduct {
 

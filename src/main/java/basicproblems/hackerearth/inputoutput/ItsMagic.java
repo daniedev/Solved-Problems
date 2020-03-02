@@ -1,43 +1,43 @@
-/**
-Problem URL :
-        https://www.hackerearth.com/practice/basic-programming/input-output/basics-of-input-output/practice-problems/algorithm/its-magic/
-
-Problem Description :
-        ussutu is a world-renowned magician.
-        And recently, he was blessed with the power to remove EXACTLY ONE element from an array.
-
-        Given, an array A (index starting from 0) with N elements.
-        Now, Sussutu CAN remove only that element which makes the sum of ALL the remaining elements exactly divisible by 7.
-
-        Throughout his life, Sussutu was so busy with magic that he could never get along with maths.
-        Your task is to help Sussutu find the first array index of the smallest element he CAN remove.
-
-        Input:
-        The first line contains a single integer N.
-        Next line contains N space separated integers Ak , 0 < k < N.
-
-        Output:
-        Print a single line containing one integer, the first array index of the smallest element he CAN remove, and -1 if there is no such element that he can remove!
-
-        Constraints:
-
-        1 < N < 105
-
-        0 < Ak < 109
-
-        SAMPLE INPUT
-        5
-        14 7 8 2 4
-        SAMPLE OUTPUT
-        1
-*/
-
 package basicproblems.hackerearth.inputoutput;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.*;
+
+/**
+ Problem URL :
+ https://www.hackerearth.com/practice/basic-programming/input-output/basics-of-input-output/practice-problems/algorithm/its-magic/
+
+ Problem Description :
+ ussutu is a world-renowned magician.
+ And recently, he was blessed with the power to remove EXACTLY ONE element from an array.
+
+ Given, an array A (index starting from 0) with N elements.
+ Now, Sussutu CAN remove only that element which makes the sum of ALL the remaining elements exactly divisible by 7.
+
+ Throughout his life, Sussutu was so busy with magic that he could never get along with maths.
+ Your task is to help Sussutu find the first array index of the smallest element he CAN remove.
+
+ Input:
+ The first line contains a single integer N.
+ Next line contains N space separated integers Ak , 0 < k < N.
+
+ Output:
+ Print a single line containing one integer, the first array index of the smallest element he CAN remove, and -1 if there is no such element that he can remove!
+
+ Constraints:
+
+ 1 < N < 105
+
+ 0 < Ak < 109
+
+ SAMPLE INPUT
+ 5
+ 14 7 8 2 4
+ SAMPLE OUTPUT
+ 1
+ */
 
 public class ItsMagic {
 

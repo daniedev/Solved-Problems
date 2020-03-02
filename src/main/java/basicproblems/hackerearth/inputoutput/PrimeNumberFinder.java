@@ -1,3 +1,7 @@
+package basicproblems.hackerearth.inputoutput;
+
+import java.util.Scanner;
+
 /**
  * You are given an integer N. You need to print the series of all prime numbers till N.
 
@@ -9,14 +13,14 @@
 
  * Print the desired output in single line separated by spaces.
 
-  Constraints
+ Constraints
 
-  1<=N<=1000
+ 1<=N<=1000
 
-  SAMPLE INPUT
-  9
-  SAMPLE OUTPUT
-  2 3 5 7
+ SAMPLE INPUT
+ 9
+ SAMPLE OUTPUT
+ 2 3 5 7
 
  * Link: https://www.hackerearth.com/practice/basic-programming/input-output/basics-of-input-output/practice-problems/algorithm/prime-number-8/
 
@@ -27,10 +31,6 @@
  * Allowed Languages:	Bash, C, C++, C++14, Clojure, C#, D, Erlang, F#, Go, Groovy, Haskell, Java, Java 8, JavaScript(Rhino), JavaScript(Node.js), Julia, Kotlin, Lisp,
  * Lisp (SBCL), Lua, Objective-C, OCaml, Octave, Pascal, Perl, PHP, Python, Python 3, R(RScript), Racket, Ruby, Rust, Scala, Swift, Swift-4.1, TypeScript, Visual Basic
  */
-
-package basicproblems.hackerearth.inputoutput;
-
-import java.util.Scanner;
 
 public class PrimeNumberFinder {
 
