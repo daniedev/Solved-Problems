@@ -3,34 +3,29 @@ package basicproblems.hackerrank.datastructures;
 import java.io.DataInputStream;
 import java.io.FileInputStream;
 import java.io.IOException;
-import java.util.LinkedList;
+import java.util.ArrayDeque;
+import java.util.HashSet;
 
 public class JavaDeque {
 
     public static void main(String[] args) throws IOException {
         FastReader fastReader = new FastReader();
-        int sizeOfArray = fastReader.nextInt();
-        int numberOfSubArrays = fastReader.nextInt();
-        int[] inputNumbers = new int[sizeOfArray];
-        for (int itr = 0; itr < sizeOfArray; itr++) {
-            inputNumbers[itr] = fastReader.nextInt();
-        }
-        int numberOfUniqueIntegers = 1;
-        LinkedList<Integer> numbers = new LinkedList<>();
-        int currentRound = 1;
-        for (int itr = 0, itr2 = 1; itr < sizeOfArray ; itr++, itr2++) {
-            if (!numbers.contains(inputNumbers[itr])) {
-                numbers.add(inputNumbers[itr]);
+        ArrayDeque<Integer> deque = new ArrayDeque<>();
+        HashSet<Integer> hashSet = new HashSet<>();
+        int totalNumberOfElements = fastReader.nextInt();
+        int sizeOfSubArray = fastReader.nextInt();
+        int numberOfUniqueIntegers = Integer.MIN_VALUE;
+        for (int itr = 0; itr < totalNumberOfElements; itr++) {
+            int currentNumber = fastReader.nextInt();
+            deque.add(currentNumber);
+            hashSet.add(currentNumber);
+            if (deque.size() == sizeOfSubArray) {
+                if (hashSet.size() > numberOfUniqueIntegers) numberOfUniqueIntegers = hashSet.size();
+                int firstElement = deque.remove();
+                if (!deque.contains(firstElement)) hashSet.remove(firstElement);
             }
-            if (itr2 == numberOfSubArrays) {
-                numberOfUniqueIntegers = Math.max(numbers.size(), numberOfUniqueIntegers);
-                if(itr == sizeOfArray - 1)
-                    break;
-                numbers.removeFirst();
-                itr2 = 0;
-                itr = currentRound - 1;
-                currentRound++;
-            }
+            if (numberOfUniqueIntegers == sizeOfSubArray)
+                break;
         }
         System.out.println(numberOfUniqueIntegers);
     }
